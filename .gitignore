@@ -1,0 +1,44 @@
+# -- Binaries ----------------------------------------------
+gtps-vallen
+gtps-vallen.exe
+*.exe
+*.out
+*.bin
+
+# -- Go build cache ----------------------------------------
+vendor/
+
+# -- Database / User data (private, do NOT commit) ---------
+databasevallen/players/
+databasevallen/worlds/
+
+# -- Temp / auto-save files --------------------------------
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+
+# -- Environment / secrets ---------------------------------
+# .env berisi host/port — aman, tapi exclude kalau nanti ada password
+# .env
+
+# -- OS artifacts ------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -- IDE / editor ------------------------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# -- Items.dat (binary besar ~5MB, uncomment kalau mau exclude) --
+# items.dat
+
+# -- Embedded git repos (bukan submodule resmi) ------------
+gotops_src/
+
+# -- Local scripts (jangan di-push) ----------------------
+updategithub.bat

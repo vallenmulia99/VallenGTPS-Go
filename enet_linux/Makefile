@@ -1,0 +1,3 @@
+test:
+	docker build -t gotops .
+	docker run --rm -e "GOEXPERIMENT=cgocheck2" gotops go test -v -test.timeout=30s -count=1 ./...

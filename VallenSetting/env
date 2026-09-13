@@ -1,0 +1,6 @@
+# VALLEN GTPS - Server Configuration
+# Edit host and port here. For game settings, use: VallenSetting/setting.json
+
+SERVER_HOST=0.0.0.0
+SERVER_PORT=17091
+

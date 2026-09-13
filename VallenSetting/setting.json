@@ -1,0 +1,76 @@
+{
+  "server_name": "VALLEN GTPS",
+  "owners": [
+    "VALLEN",
+    "Vallennow"
+  ],
+  "default_role": 0,
+  "enable_registration": true,
+  "max_players": 1024,
+
+  "server": {
+    "login_message": "Welcome back, `w%s``. No friends are online.",
+    "maintenance_mode": false,
+    "maintenance_message": "`4Server is under maintenance. Please try again later.``",
+    "game_theme": "growtopia",
+    "choose_music": "audio/mp3/about_theme.mp3",
+    "items_hash": 2966867045
+  },
+
+  "new_player": {
+    "start_gems": 1000,
+    "start_items": [
+      { "id": 242, "count": 50 },
+      { "id": 2,   "count": 200 },
+      { "id": 10,  "count": 50 },
+      { "id": 14,  "count": 50 }
+    ]
+  },
+
+  "world": {
+    "default_width": 100,
+    "default_height": 60,
+    "max_dropped_items": 2000
+  },
+
+  "daily_bonus": {
+    "enabled": true,
+    "cooldown_seconds": 86400,
+    "reward_gems": 5000,
+    "reward_wl": 3,
+    "reward_xp": 50
+  },
+
+  "daily_challenge": {
+    "enabled": true,
+    "target_points": 50,
+    "reward_gems": 10000
+  },
+
+  "fruit_mixer": {
+    "enabled": true,
+    "cost_gems": 500,
+    "reward_item_id": 242,
+    "reward_item_count": 1
+  },
+
+  "events": {
+    "showdungeonsui": true,
+    "show_mailbox_ui": false,
+    "show_auction_ui": false,
+    "openPiggyBank": false,
+    "dailychallengemenu": false,
+    "show_bingo_ui": false,
+    "winterrallymenu": false,
+    "leaderboardBtnClicked": false,
+    "euphoriaBtnClicked": false,
+    "show_fruit_mixer_dialog": false,
+    "eventmenu": false,
+    "openLnySparksPopup": false,
+    "ShowValentinesQuestDialog": false,
+    "showegseeventui": false,
+    "openStPatrickPiggyBank": false,
+    "dailyrewardmenu": false,
+    "claimprogressbar": false
+  }
+}
